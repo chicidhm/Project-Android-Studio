@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6DBDA"
+
+    android:orientation="vertical"
+    tools:context=".layananActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="TERSEDIA LAYANAN KESEHATAN"
+        android:textStyle="bold"
+        android:background="@drawable/bg_style"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btnLaboratorium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="LABORATORIUM" />
+
+    <Button
+        android:id="@+id/btnkardiologi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="KARDIOLOGI" />
+
+    <Button
+        android:id="@+id/btnapotek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="APOTEK" />
+
+</LinearLayout>
